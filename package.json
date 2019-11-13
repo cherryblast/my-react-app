@@ -20,5 +20,5 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://cherryblast.github.io/movie_app"
+  "homepage": "http://cherryblast.github.io/my-react-app"
 }
