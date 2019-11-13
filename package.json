@@ -9,11 +9,16 @@
     "react-lines-ellipsis": "^0.14.1",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://cherryblast.github.io/movie_app"
 }
